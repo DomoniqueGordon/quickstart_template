@@ -1,0 +1,15 @@
+[flake8]
+exclude = .git,__pycache__,docs/source/conf.py,old,build,dist,venv,dev
+max-line-length = 79
+application_import_names = martin,dags
+rst-roles =
+    class,
+    func,
+    ref,
+    meth,
+    data,
+    py:mod,
+rst-directives =
+    envvar,
+    exception,
+    api:api,
